@@ -10,9 +10,12 @@ Tools and stack: #python #requests #BeautifulSoup
 - Create project dir
 - Create and activate venv
 - Follow the commands below:
+
 ```
 git clone git@github.com:sava9ecode/rp_scraper.git
-python3 -m pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python manage.py runserver
 ```
 
 That's it! Enjoy your journey.
